@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <meta name="author" content="Alexandre Beaujon">
+    <meta name="copyright" content="Alexandre Beaujon">
+    <title>Projet Info3B</title>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/controls/OrbitControls.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/other/ThreeBSP.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../../libs/util/util.js"></script>
+    <script type="text/javascript" src="../js/init.js"></script>
+    <link rel="stylesheet" href="../css/init.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <table id="scores">
+        <tr>
+            <td></td><td id = "blue-team">Equipe Bleue</td><td id = "red-team">Equipe Rouge</td>
+        </tr>
+        <tr>
+            <td>Score</td><td></td><td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
